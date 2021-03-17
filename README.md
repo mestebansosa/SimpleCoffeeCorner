@@ -7,7 +7,7 @@
 
 * According to the requirements the following data model has been created
   * model:
-    * Item: products of the Coffee Corner, with four ITEM_TYPE: BEBERAGE, SNACK, EXTRA and BONUS and sevaral ITEM_NAME
+    * Item: products of the Coffee Corner, with four ITEM_TYPE: BEBERAGE, SNACK, EXTRA and BONUS and several ITEM_NAME
     * Receipt: The receipt with the total to pay (including the bonus or discounts if any)
   * dao (CRUD operations to do on the model:
     * ItemDao
@@ -40,7 +40,7 @@
   * where <fileName> is the file that contains the customer order (like in the examples files)
   
 * Some Examples:
-./order1beverage1snack2extra.txt  
+java -jar SimpleCoffeeCorner-1.0-SNAPSHOT.jar ./order1beverage1snack2extra.txt  
 
 
     Date: 2021-03-17 09:15:10
@@ -52,7 +52,7 @@
     Total               : 7,90
 
 
-./order5beverage.txt
+java -jar SimpleCoffeeCorner-1.0-SNAPSHOT.jar ./order5beverage.txt
 
 
     Date: 2021-03-17 09:15:30
@@ -65,7 +65,7 @@
     Total               : 13,95
 
 
-order5beverage1snack2extra.txt
+java -jar SimpleCoffeeCorner-1.0-SNAPSHOT.jar ./order5beverage1snack2extra.txt
 
 
     Date: 2021-03-17 09:16:32
