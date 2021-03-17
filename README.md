@@ -40,6 +40,7 @@
   * where <fileName> is the file that contains the customer order (like in the examples files)
   
 * Some Examples:
+
 java -jar SimpleCoffeeCorner-1.0-SNAPSHOT.jar ./order1beverage1snack2extra.txt  
 
 
